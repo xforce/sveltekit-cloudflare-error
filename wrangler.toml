@@ -1,0 +1,11 @@
+compatibility_date = "2022-09-10"
+
+name = "sveltekit-cloudflare-worker-error"
+
+main = ".cloudflare/worker/worker.mjs"
+
+[build]
+command = ""
+
+[site]
+bucket = "./.cloudflare/assets"
